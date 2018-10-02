@@ -11,7 +11,6 @@ a {
 	flex-wrap: wrap;
 	background-color: #19224F;
 	height: 100%;
-	/* min-width: 300px; */
 }
 
 .home_txt {
@@ -39,6 +38,8 @@ a {
 
 .right_column_h {
 	display: flex;
+	flex-wrap: wrap;
+	/* flex-flow: column wrap; */
 }
 
 .button_h1, .button_h2, .button_h3 {
