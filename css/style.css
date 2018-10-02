@@ -1,0 +1,47 @@
+a {
+	text-decoration: none;
+}
+
+.header {
+	margin: 0 60px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+	background-color: #19224F;
+	height: 100%;
+	min-width: 300px;
+}
+
+.home_txt {
+	font-size: 1.8em;
+	color: black;
+	font-family: 'Noto Serif', serif;
+}
+
+.header_btns_txt {
+	color: white;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.button_bg {
+	padding: 0 20px 10px;
+	background-image: url(../img/top_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.home_button {
+	/* # */
+}
+
+.right_column_h {
+	display: flex;
+}
+
+.button_h1, .button_h2, .button_h3 {
+	margin: 0 20px;
+}
+
