@@ -13,10 +13,20 @@ a {
 	height: 100%;
 }
 
+.home_txt, .header_btns_txt {
+	border:none;
+	outline: none;
+	transition: 0.2s;
+}
+
 .home_txt {
 	font-size: 1.8em;
 	color: black;
 	font-family: 'Noto Serif', serif;
+}
+
+.home_txt:hover {
+	color: #F7DDC7;
 }
 
 .header_btns_txt {
@@ -25,21 +35,24 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.header_btns_txt:hover {
+	color: #A06C3F;
+}
+
 .button_bg {
-	padding: 0 20px 10px;
+	padding: 0 20px;
 	background-image: url(../img/top_bg.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
 .home_button {
-	/* # */
+	padding: 0px;
 }
 
 .right_column_h {
 	display: flex;
 	flex-wrap: wrap;
-	/* flex-flow: column wrap; */
 }
 
 .button_h1, .button_h2, .button_h3 {
